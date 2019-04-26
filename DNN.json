@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Multilayer Perceptron",
+        "abbreviation": "MLP",
+        "first_appearence": "1985",
+        "papers": [
+            {
+                "title": "Learning Internal Representations by Error Propagation",
+                "authors": ["Rumelhart", "Hinton", "Williams"],
+                "ISO690": "RUMELHART, D. E.; HINTON, G. E.; WILLIAMS, R. J. Learning Internal Representations by Error Propagation.",
+                "links": []
+            }
+        ],
+        "from" : [],
+        "to" : [],
+        "categories": []
+    },
+    {
+        "name": "Neocognitron",
+        "abbreviation": "",
+        "first_appearence": "1985",
+        "papers": [
+            {
+                "title": "Shift-invariant pattern recognition neural network and its optical architecture",
+                "authors": ["Rumelhart", "Hinton", "Williams"],
+                "ISO690": "ZHANG, Wei, et al. Shift-invariant pattern recognition neural network and its optical architecture. In: Proceedings of annual conference of the Japan Society of Applied Physics. 1988.",
+                "links":  [ "http://www.cs.princeton.edu/courses/archive/spr08/cos598B/Readings/Fukushima1980.pdf" ]
+            }
+        ],
+        "from" : [],
+        "to" : [],
+        "categories": [ "CNN" ]
+    }
+
+]
