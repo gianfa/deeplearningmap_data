@@ -1,5 +1,6 @@
 [
     {
+        "id" : 0,
         "name": "Multilayer Perceptron",
         "abbreviation": "MLP",
         "first_appearence": "1985",
@@ -15,7 +16,8 @@
         "to" : [],
         "categories": []
     },
-    {
+    {   
+        "id": 1,
         "name": "Neocognitron",
         "abbreviation": "",
         "first_appearence": "1985",
@@ -27,7 +29,7 @@
                 "links":  [ "http://www.cs.princeton.edu/courses/archive/spr08/cos598B/Readings/Fukushima1980.pdf" ]
             }
         ],
-        "from" : [],
+        "from" : [ 0 ],
         "to" : [],
         "categories": [ "CNN" ]
     }
