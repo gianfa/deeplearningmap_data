@@ -10,3 +10,5 @@ Make a PR anytime you want, adding other networks to the DNN object, so that we 
 
 
 
+## Check out the Map
+Visit https://thedeeplearningmap.herokuapp.com/ and collaborate!
