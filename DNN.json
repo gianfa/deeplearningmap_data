@@ -1,5 +1,4 @@
-
-    {
+[{
         "id" : 0,
         "name": "Multilayer Perceptron",
         "abbreviation": "MLP",
@@ -67,4 +66,4 @@
         "to" : [],
         "categories": [ "CNN", "Computer Vision" ]
     }
-
+]
