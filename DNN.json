@@ -1,4 +1,4 @@
-const a = [
+
     {
         "id" : 0,
         "name": "Multilayer Perceptron",
@@ -68,4 +68,3 @@ const a = [
         "categories": [ "CNN", "Computer Vision" ]
     }
 
-];
