@@ -1,4 +1,4 @@
-[
+const a = [
     {
         "id" : 0,
         "name": "Multilayer Perceptron",
@@ -32,6 +32,40 @@
         "from" : [ 0 ],
         "to" : [],
         "categories": [ "CNN" ]
+    },
+    {   
+        "id": 2,
+        "name": "AlexNet",
+        "abbreviation": "AlexNet",
+        "first_appearence": "2014",
+        "papers": [
+            {
+                "title": "One weird trick for parallelizing convolutional neural networks",
+                "authors": ["A Krizhevsky"],
+                "ISO690": "KRIZHEVSKY, Alex. One weird trick for parallelizing convolutional neural networks. arXiv preprint arXiv:1404.5997, 2014.",
+                "links":  [ "https://arxiv.org/abs/1404.5997" ]
+            }
+        ],
+        "from" : [ 1 ],
+        "to" : [],
+        "categories": [ "CNN", "Computer Vision" ]
+    },
+    {   
+        "id": 3,
+        "name": "Visual Geometry Group ConvNet",
+        "abbreviation": "VGG",
+        "first_appearence": "2014",
+        "papers": [
+            {
+                "title": "One weird trick for parallelizing convolutional neural networks",
+                "authors": ["K Simonyan", "A Zisserman"],
+                "ISO690": "SIMONYAN, Karen; ZISSERMAN, Andrew. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556, 2014.",
+                "links":  [ "https://arxiv.org/abs/1409.1556" ]
+            }
+        ],
+        "from" : [ 1 ],
+        "to" : [],
+        "categories": [ "CNN", "Computer Vision" ]
     }
 
-]
+];
