@@ -6,9 +6,17 @@ Deep Learning is a new fantastic field of the science, based on relatively new s
 If you've read the introduction above you know there are a lot of things around in the room, thus I thought it could be better to put some order, so that you and me are able to conceptually walk over the networks evolution. I hope this will help to clarify the mess that there is on this complex world.
 
 ## Collaborate!
-Make a PR anytime you want, adding other networks to the DNN object, so that we will see the map growing thanks to your collaboration!
+Make a PR anytime you want, adding other networks to the DNN object, so that we will see the map growing thanks to your collaboration!  
 
-
-
+### How to make a PR (the easy way)
+If you are already an expert you surely know how to do a PR and update DNN.json with new data, then it's all yours.
+Instead, if you don't know how to do it, just follow these simple steps:
+ 1. Access to DNN.json github file (you can just click [here](https://github.com/gianfa/deeplearningmap_data/blob/master/DNN.json));
+ 2. Click the _Edit_ Button in the right corner; ![edit](https://github.com/gianfa/deeplearningmap_data/blob/master/imgs/PR_1.gif)
+ 3. Make your edits;
+ 4. Click _Propose File change_ green button at the bottom.
+ 5. Finally click _Create pull request_; ![Create pull request](https://github.com/gianfa/deeplearningmap_data/blob/master/imgs/PR_2.png)
+ 
+ ..and that'all.
 ## Check out the Map
 Visit https://thedeeplearningmap.herokuapp.com/ and collaborate!
