@@ -1,104 +1,200 @@
 [{
-  "id" : 0,
-  "name": "Multilayer Perceptron",
-  "abbreviation": "MLP",
-  "first_appearence": "1985",
-  "papers": [
-      {
-          "title": "Learning Internal Representations by Error Propagation",
-          "authors": ["Rumelhart", "Hinton", "Williams"],
-          "ISO690": "RUMELHART, D. E.; HINTON, G. E.; WILLIAMS, R. J. Learning Internal Representations by Error Propagation.",
-          "links": []
-      }
-  ],
-  "from" : [],
-  "to" : [],
-  "categories": []
-},
-{   
-  "id": 1,
-  "name": "Neocognitron",
-  "abbreviation": "Neocog",
-  "first_appearence": "1985",
-  "papers": [
-      {
-          "title": "Shift-invariant pattern recognition neural network and its optical architecture",
-          "authors": ["Rumelhart", "Hinton", "Williams"],
-          "ISO690": "ZHANG, Wei, et al. Shift-invariant pattern recognition neural network and its optical architecture. In: Proceedings of annual conference of the Japan Society of Applied Physics. 1988.",
-          "links":  [ "http://www.cs.princeton.edu/courses/archive/spr08/cos598B/Readings/Fukushima1980.pdf" ]
-      }
-  ],
-  "from" : [ 0 ],
-  "to" : [],
-  "categories": [ "CNN" ]
-},
-{   
-  "id": 2,
-  "name": "AlexNet",
-  "abbreviation": "AlexNet",
-  "first_appearence": "2014",
-  "papers": [
-      {
-          "title": "One weird trick for parallelizing convolutional neural networks",
-          "authors": ["A Krizhevsky"],
-          "ISO690": "KRIZHEVSKY, Alex. One weird trick for parallelizing convolutional neural networks. arXiv preprint arXiv:1404.5997, 2014.",
-          "links":  [ "https://arxiv.org/abs/1404.5997" ]
-      }
-  ],
-  "from" : [ 1 ],
-  "to" : [],
-  "categories": [ "CNN", "Computer Vision" ]
-},
-{   
-  "id": 3,
-  "name": "Visual Geometry Group ConvNet",
-  "abbreviation": "VGG",
-  "first_appearence": "2014",
-  "papers": [
-      {
-          "title": "One weird trick for parallelizing convolutional neural networks",
-          "authors": ["K Simonyan", "A Zisserman"],
-          "ISO690": "SIMONYAN, Karen; ZISSERMAN, Andrew. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556, 2014.",
-          "links":  [ "https://arxiv.org/abs/1409.1556" ]
-      }
-  ],
-  "from" : [ 1 ],
-  "to" : [],
-  "categories": [ "CNN", "Computer Vision" ]
-},
-{
-  "id" : 4,
-  "name": "Rumelhart Recurrent neurons Network",
-  "abbreviation": "Rumelhart Network",
-  "first_appearence": "1985",
-  "papers": [
-      {
-          "title": "Learning Internal Representations by Error Propagation",
-          "authors": ["Rumelhart", "Hinton", "Williams"],
-          "ISO690": "RUMELHART, David E., et al. Learning representations by back-propagating errors. Cognitive modeling, 1988, 5.3: 1.",
-          "links": ["http://calla.rnet.missouri.edu/cheng_courses/mlbioinfo/rumelhart_nn.pdf"]
-      }
-  ],
-  "from" : [0],
-  "to" : [],
-  "categories": ["RNN"]
-},
-{
-  "id" : 5,
-  "name": "Connectionist temporal classification",
-  "abbreviation": "CTC",
-  "first_appearence": "2007",
-  "papers": [
-      {
-          "title": "Learning Internal Representations by Error Propagation",
-          "authors": ["Liwicki, M.", "Graves, A.", "Fernàndez, S.", "Bunke, H.", "Schmidhuber, J"],
-          "ISO690": "LIWICKI, Marcus, et al. A novel approach to on-line handwriting recognition based on bidirectional long short-term memory networks. In: Proceedings of the 9th International Conference on Document Analysis and Recognition, ICDAR 2007. 2007.",
-          "links": ["https://mediatum.ub.tum.de/doc/1289961/file.pdf"]
-      }
-  ],
-  "from" : [4],
-  "to" : [],
-  "categories": ["RNN", "LSTM", "Computer Vision"]
-}
-
+		"id": 0,
+		"name": "Multilayer Perceptron",
+		"abbreviation": "MLP",
+		"first_appearence": "1985",
+		"papers": [{
+			"title": "Learning Internal Representations by Error Propagation",
+			"authors": [
+				"Rumelhart",
+				"Hinton",
+				"Williams"
+			],
+			"ISO690": "RUMELHART, D. E.; HINTON, G. E.; WILLIAMS, R. J. Learning Internal Representations by Error Propagation.",
+			"links": []
+		}],
+		"from": [],
+		"to": [],
+		"categories": []
+	},
+	{
+		"id": 1,
+		"name": "Neocognitron",
+		"abbreviation": "Neocog",
+		"first_appearence": "1985",
+		"papers": [{
+			"title": "Shift-invariant pattern recognition neural network and its optical architecture",
+			"authors": [
+				"Rumelhart",
+				"Hinton",
+				"Williams"
+			],
+			"ISO690": "ZHANG, Wei, et al. Shift-invariant pattern recognition neural network and its optical architecture. In: Proceedings of annual conference of the Japan Society of Applied Physics. 1988.",
+			"links": [
+				"http://www.cs.princeton.edu/courses/archive/spr08/cos598B/Readings/Fukushima1980.pdf"
+			]
+		}],
+		"from": [
+			0
+		],
+		"to": [],
+		"categories": [
+			"CNN"
+		]
+	},
+	{
+		"id": 2,
+		"name": "AlexNet",
+		"abbreviation": "AlexNet",
+		"first_appearence": "2014",
+		"papers": [{
+			"title": "One weird trick for parallelizing convolutional neural networks",
+			"authors": [
+				"A Krizhevsky"
+			],
+			"ISO690": "KRIZHEVSKY, Alex. One weird trick for parallelizing convolutional neural networks. arXiv preprint arXiv:1404.5997, 2014.",
+			"links": [
+				"https://arxiv.org/abs/1404.5997"
+			]
+		}],
+		"from": [
+			1
+		],
+		"to": [],
+		"categories": [
+			"CNN",
+			"Computer Vision"
+		]
+	},
+	{
+		"id": 3,
+		"name": "Visual Geometry Group ConvNet",
+		"abbreviation": "VGG",
+		"first_appearence": "2014",
+		"papers": [{
+			"title": "One weird trick for parallelizing convolutional neural networks",
+			"authors": [
+				"K Simonyan",
+				"A Zisserman"
+			],
+			"ISO690": "SIMONYAN, Karen; ZISSERMAN, Andrew. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556, 2014.",
+			"links": [
+				"https://arxiv.org/abs/1409.1556"
+			]
+		}],
+		"from": [
+			1
+		],
+		"to": [],
+		"categories": [
+			"CNN",
+			"Computer Vision"
+		]
+	},
+	{
+		"id": 4,
+		"name": "Rumelhart Recurrent neurons Network",
+		"abbreviation": "Rumelhart Network",
+		"first_appearence": "1985",
+		"papers": [{
+			"title": "Learning Internal Representations by Error Propagation",
+			"authors": [
+				"Rumelhart",
+				"Hinton",
+				"Williams"
+			],
+			"ISO690": "RUMELHART, David E., et al. Learning representations by back-propagating errors. Cognitive modeling, 1988, 5.3: 1.",
+			"links": [
+				"http://calla.rnet.missouri.edu/cheng_courses/mlbioinfo/rumelhart_nn.pdf"
+			]
+		}],
+		"from": [
+			0
+		],
+		"to": [],
+		"categories": [
+			"RNN"
+		]
+	},
+	{
+		"id": 5,
+		"name": "Connectionist temporal classification",
+		"abbreviation": "CTC",
+		"first_appearence": "2007",
+		"papers": [{
+			"title": "Learning Internal Representations by Error Propagation",
+			"authors": [
+				"Liwicki, M.",
+				"Graves, A.",
+				"Fernàndez, S.",
+				"Bunke, H.",
+				"Schmidhuber, J"
+			],
+			"ISO690": "LIWICKI, Marcus, et al. A novel approach to on-line handwriting recognition based on bidirectional long short-term memory networks. In: Proceedings of the 9th International Conference on Document Analysis and Recognition, ICDAR 2007. 2007.",
+			"links": [
+				"https://mediatum.ub.tum.de/doc/1289961/file.pdf"
+			]
+		}],
+		"from": [
+			4
+		],
+		"to": [],
+		"categories": [
+			"RNN",
+			"LSTM",
+			"Computer Vision"
+		]
+	},
+	{
+		"id": 6,
+		"name": "Deep Residual Network",
+		"abbreviation": "ResNet",
+		"first_appearence": "2015",
+		"papers": [{
+			"title": "Deep Residual Learning for Image Recognition",
+			"authors": [
+				"Kaiming He",
+				"Xiangyu Zhang",
+				"Shaoqing Ren",
+				"Jian Sun"
+			],
+			"ISO690": "HE, Kaiming, et al. Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. 2016. p. 770-778.",
+			"links": [
+				"https://arxiv.org/abs/1512.03385"
+			]
+		}],
+		"from": [
+			1
+		],
+		"to": [],
+		"categories": [
+			"CNN",
+			"Computer Vision"
+		]
+	},
+	{
+		"id": 7,
+		"name": "Auto-associative MLP",
+		"abbreviation": "Autoencoder",
+		"first_appearence": "1988",
+		"papers": [{
+			"title": "Auto-Association by Multilayer Perceptrons and Singular Value Decomposition",
+			"authors": [
+				"H Bourlard",
+				"Y Kamp"
+			],
+			"ISO690": "BOURLARD, H.; KAMP, Y. Auto-Association by Multilayer Perceptrons and Singular Value Decomposition. Biol. Cybern, 1988, 59: 291 - 294. ",
+			"links": [
+				"http://ace.cs.ohio.edu/~razvan/courses/dl6890/papers/bourlard-kamp88.pdf"
+			]
+		}],
+		"from": [
+			0
+		],
+		"to": [],
+		"categories": [
+			"MLP",
+			"Autoencoder"
+		]
+	}
 ]
